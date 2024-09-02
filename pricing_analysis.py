@@ -8,7 +8,6 @@ def app():
     # Load dataset
     df = pd.read_excel('Sims_4_Data_v1.xlsx')
 
-    # Data Preprocessing
     df['Release Date'] = pd.to_datetime(df['Release Date'])
     df['Price'] = pd.to_numeric(df['Origin/ Official Price (USD)'], errors='coerce')
 

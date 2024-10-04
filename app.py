@@ -12,7 +12,7 @@ st.set_page_config(
 # Sidebar navigation
 st.sidebar.title("Sims 4 DLC Insights")
 st.sidebar.header("Navigation Window")
-pages = ["Home", "Release Timeline", "Pricing Analysis", "Ratings Visualization", "Top-Rated & Best Value Packs"]
+pages = ["Home", "Release Timeline", "Pricing Analysis", "Ratings Visualization", "Top-Rated & Best Value Packs", "ChatBot"]
 
 page = st.sidebar.radio("Go to", pages)
 
@@ -35,3 +35,8 @@ elif page == "Ratings Visualization":
 elif page == "Top-Rated & Best Value Packs":
     from pages import best_value
     best_value.app()
+
+elif page == "ChatBot":
+    from pages import chatbot
+    chatbot.app()
+

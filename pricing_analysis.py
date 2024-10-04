@@ -3,11 +3,12 @@ import pandas as pd
 import plotly.express as px
 
 def app():
-    st.title("Pricing Analysis")
+    st.title("*:green[Pricing Analysis]*")
 
     # Load dataset
     df = pd.read_excel('Sims_4_Data_v1.xlsx')
 
+    # Data Preprocessing
     df['Release Date'] = pd.to_datetime(df['Release Date'])
     df['Price'] = pd.to_numeric(df['Origin/ Official Price (USD)'], errors='coerce')
 

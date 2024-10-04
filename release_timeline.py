@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 def app():
-    st.title("DLC Release Timeline")
+    st.title("*:green[DLC Release Timeline]*")
 
     # Load dataset
     df = pd.read_excel('Sims_4_Data_v1.xlsx')

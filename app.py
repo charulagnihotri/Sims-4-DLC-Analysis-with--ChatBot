@@ -38,5 +38,5 @@ elif page == "Top-Rated & Best Value Packs":
 
 elif page == "ChatBot":
     from pages import chatbot
-    chatbot.app()
+    chatbot.app() 
 

@@ -1,4 +1,4 @@
-This project uses the Streamlit framework to explore and visualize data related to The Sims 4 Downloadable Content (DLC) and Expansion Packs.
+This project uses the Streamlit framework to explore and visualize data related to The Sims 4 Downloadable Content (DLC) and Expansion Packs along with a chatbot.
 
 1. Project Structure:
 Here’s how the files and folders are organized:
